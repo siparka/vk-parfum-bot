@@ -1,4 +1,9 @@
 from vkbottle.bot import Bot, Message
+import os
+
+print("=== ENV KEYS ===")
+print(sorted(os.environ.keys()))
+print("================")
 from config import VK_TOKEN, CHAT_ID
 
 bot = Bot(VK_TOKEN)
