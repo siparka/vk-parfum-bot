@@ -1,2 +1,2 @@
-vkbottle
+vkbottle==4.5.1
 python-dotenv
