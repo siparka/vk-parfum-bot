@@ -1,4 +1,9 @@
 import os
 
-VK_TOKEN = os.environ.get("VK_TOKEN")
-CHAT_ID = int(os.environ.get("CHAT_ID", "2000000001"))
+print("VK_TOKEN getenv:", os.getenv("VK_TOKEN"))
+print("CHAT_ID getenv:", os.getenv("CHAT_ID"))
+
+print("VK_TOKEN environ:", os.environ.get("VK_TOKEN"))
+print("CHAT_ID environ:", os.environ.get("CHAT_ID"))
+
+raise SystemExit
