@@ -1,5 +1,6 @@
 from vkbottle.bot import Bot, Message
 import os
+raise Exception(os.environ)
 
 print("=== ENV KEYS ===")
 print(sorted(os.environ.keys()))
